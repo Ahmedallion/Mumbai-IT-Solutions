@@ -12,7 +12,7 @@ To run this bot, you need to have **Docker** installed on your machine. You can 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ahmedallion/mumbai-it-solutions.git
+   git clone https://github.com/Ahmedallion/Mumbai-IT-Solutions.git
    ```
 
 2. Navigate to the project directory:
