@@ -9,8 +9,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
-with open("./bot/config.json", "r") as config_file:
-    config = json.load(config_file)
+config = json.load(open("./bot/config.json", "r"))
 
 load_dotenv()
 token = os.getenv("BOT_TOKEN")
@@ -34,7 +33,7 @@ formatter = logging.Formatter("[{asctime}] [{levelname:<8}] {name}: {message}", 
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-class MyClient(commands.AutoShardedBot):
+class Client(commands.AutoShardedBot):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.config = config
@@ -85,7 +84,7 @@ class MyClient(commands.AutoShardedBot):
                 await asyncio.sleep(600)
 
 intents = discord.Intents.all()
-client = MyClient(command_prefix=config["commandPrefix"], intents=intents)
+client = Client(command_prefix=config["commandPrefix"], intents=intents)
 client.remove_command("help")
 
 logging.info("Starting bot...")
