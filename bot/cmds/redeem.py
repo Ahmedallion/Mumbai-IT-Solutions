@@ -14,7 +14,7 @@ class Redeem(commands.Cog):
     @app_commands.allowed_installs(guilds=True, users=True)
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     async def redeem(self, interaction: discord.Interaction, code: str):
-        responses = json.load(open("./assets/redeem.json", "r"))
+        responses = json.load(open("./bot/assets/redeem.json", "r"))
         if random.randint(1, 10) == 1:
             embed = discord.Embed(description=self.client.config["emojis"]["crossOrange"] + " **Error**: " + random.choice(responses["invalid"]), color=int(self.client.config["colors"]["orange"], 16))
             await interaction.response.send_message(embed=embed)
