@@ -17,7 +17,7 @@ To run this bot, you need to have **Docker** installed on your machine. You can 
 
 2. Navigate to the project directory:
    ```bash
-   cd mumbai-it-solutions
+   cd Mumbai-IT-Solutions
    ```
 
 3. Build the Docker image:
