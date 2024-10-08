@@ -1,0 +1,21 @@
+{
+    "responses": [
+        "MA'AM, DO NOT REDEEM THAT CODE!",
+        "WHY? DID YOU REDEEM IT?!",
+        "OH NO, YOU REDEEMED IT! WHAT HAVE YOU DONE?!",
+        "WHY ARE YOU NOT LISTENING TO ME?!",
+        "I'M LITERALLY SHOUTING!! I'M LITERALLY SHOUTING RIGHT NOW MA'AM!!!!",
+        "WAIT... PLEASE WAIT!",
+        "NO!! NO! NO!!!",
+        "WOAH WAIT!",
+        "MA'AM NOOOOOOOOOOOOOOOO!",
+        "NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!",
+        "YOU DON'T HAVE TO DO THAT!!"
+    ],
+    "invalid": [
+        "Your code could not be redeemed.",
+        "There is a problem with that code, try a different one.",
+        "This code has been redeemed.",
+        "You have already redeemed this code."
+    ]
+}
