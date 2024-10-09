@@ -22,12 +22,12 @@ To run this bot, you need to have **Docker** installed on your machine. You can 
 
 3. Build the Docker image:
    ```bash
-   docker build -t mumbai-it-solutions:1.0.2 .
+   docker build -t mumbai-it-solutions:1.0.3 .
    ```
 
 4. Run the Docker container in detached mode:
    ```bash
-   docker run -d --restart unless-stopped --name mumbai-it-solutions -h mumbai-it-solutions -e BOT_TOKEN=your_bot_token_here mumbai-it-solutions:1.0.2
+   docker run -d --restart unless-stopped --name mumbai-it-solutions -h mumbai-it-solutions -e BOT_TOKEN=your_bot_token_here mumbai-it-solutions:1.0.3
    ```
 
 ## Usage
