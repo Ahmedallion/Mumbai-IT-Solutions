@@ -1,3 +1,4 @@
+import json
 import random
 
 import discord
@@ -12,8 +13,14 @@ class Boost(commands.Cog):
     @app_commands.allowed_installs(guilds=True, users=True)
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     async def boost(self, interaction: discord.Interaction):
-        responses = ["Speed boosted to 9000 Mbps!", "Virus detected! To remove, please provide your credit card info... totally safe, promise! 😏"]
-        await interaction.response.send_message(content=random.choice(responses))
+        responses = json.load(open("./bot/assets/boost.json", "r"))
+        if random.randint(1, 10) == 1:
+            embed = discord.Embed(description=self.client.config["emojis"]["crossOrange"] + " " + random.choice(responses["invalid"]), color=int(self.client.config["colors"]["orange"], 16))
+            await interaction.response.send_message(embed=embed)
+        else:
+            response = random.choice(responses["responses"])
+            formatted_response = response.format(random.randint(150, 10000)) if "{}" in response else response
+            await interaction.response.send_message(content=formatted_response)
 
 async def setup(client):
     await client.add_cog(Boost(client))

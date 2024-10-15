@@ -1,0 +1,43 @@
+{
+    "responses": [
+        "Virus detected! To remove, please provide your credit card info... totally safe, promise! 😏",
+        "Speed boosted to {} Mbps!",
+        "Boosting your internet speed to {} Mbps! Just in time for that important cat video!",
+        "Congratulations! Your internet is now at {} Mbps. Now you can buffer in style!",
+        "Your connection is so fast, it's faster than your last relationship!",
+        "Boosting to {} Mbps... but it's still dial-up in disguise!",
+        "Your internet speed is now {} Mbps. Too bad it won't help you find a job!",
+        "Your internet is boosted! It can now handle your TikTok addiction!",
+        "Just kidding! Your internet is still as slow as a turtle on vacation.",
+        "You're now connected to the speed of light! Just kidding, it's actually a snail's pace.",
+        "Your speed is now at {} Mbps. Perfect for watching paint dry in HD!",
+        "You just got boosted to {} Mbps, but don't expect miracles!",
+        "Boosting to {} Mbps... your dreams are still buffering!",
+        "Your internet is so fast, it could run a marathon. Or just load a meme in 0.1 seconds!",
+        "Congratulations! You're now connected to the Internet of Things, and they're judging you.",
+        "Your internet speed is now at {} Mbps! Just enough to send emails with flair!",
+        "Boosting complete! Your browser now loads 404 errors at lightning speed!",
+        "Your connection is so strong, it just knocked over your Wi-Fi router!",
+        "Boosting your speed to {} Mbps! Now you can stream your procrastination live!",
+        "Your internet is so fast, it's like running on rocket fuel—too bad it's just for show!",
+        "Congratulations! Your internet is now at {} Mbps. Perfect for watching the same video on repeat!",
+        "Boosting to {} Mbps... but your provider is still on break!"
+    ],
+    "invalid": [
+        "**Error**: Unable to boost your internet speed. Please try turning it off and on again.",
+        "**Warning**: Your internet speed has been permanently set to potato mode!",
+        "**Alert**: Your internet connection is lost in the Bermuda Triangle.",
+        "**Error**: Insufficient bandwidth. Please send more memes to boost your speed.",
+        "**Alert**: Your internet speed is too fast for this server. Slowing down now!",
+        "**Warning**: Your router has entered a black hole. Please retrieve it ASAP!",
+        "**Error**: Internet speed boost failed. Please check your Wi-Fi password and try again.",
+        "**Caution**: Your connection has been flagged for suspicious activity. Reset required.",
+        "**Oops!**: It seems your internet has gone on vacation without you.",
+        "**Error**: Unable to process your request. Your ISP is currently on a coffee break.",
+        "**Alert**: Your internet speed is currently in a state of existential crisis.",
+        "**Warning**: Network overload! Your cat is trying to stream too many videos at once.",
+        "**Error**: Your connection is now a slow dance. Please try again later.",
+        "**Oops!**: Looks like your internet is buffering... indefinitely.",
+        "**Warning**: Your internet speed has been downgraded to 'waiting for a bus'."
+    ]    
+}
