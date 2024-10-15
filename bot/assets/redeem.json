@@ -13,9 +13,9 @@
         "YOU DON'T HAVE TO DO THAT!!"
     ],
     "invalid": [
-        "Your code could not be redeemed.",
-        "There is a problem with that code, try a different one.",
-        "This code has been redeemed.",
-        "You have already redeemed this code."
-    ]
+        "**Error**: Your code could not be redeemed.",
+        "**Warning**: There is a problem with that code, try a different one.",
+        "**Alert**: This code has been redeemed.",
+        "**Error**: You have already redeemed this code."
+    ]    
 }
